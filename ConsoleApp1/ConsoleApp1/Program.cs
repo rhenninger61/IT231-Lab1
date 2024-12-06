@@ -15,12 +15,10 @@
         public static void DoMath(int x, int y)
         {
             int z = x * y;
-            Console.WriteLine("Result: " + z);
-        }
-        public static void DoMath(int x, int y)
-        {
-            int z = x + y;
-            Console.WriteLine("Result: " + z);
+            Console.WriteLine("Multiplication: " + z);
+
+            z = x + y;
+            Console.WriteLine("Addition: " + z);
         }
     }
 }
